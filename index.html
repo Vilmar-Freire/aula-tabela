@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agora vamos ver tabelas vamos sentir como elas se comportão.">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!--HTML5 básico - Tabelas
+Aqui vamos ver as tabelas do HTML, um fato curioso: antigamente, a estrutura de um site era 
+basicamente composto por uma tabela.
+Hoje em dia, com as tags semânticas, as tabelas tem o seu verdadeiro significado de utilização,
+que é realmente receber valores.
+Junto com o código disponibilizado, terá a imagem de uma estrutura de tabela, mostrada na aula. -->
+    <h1>Tabelas</h1>
+
+    <table>
+        <!--Esta é o cabeçalho da tabela-->
+        <tr>
+            <th>Roupa</th>
+            <th>Cor</th>
+            <th>Tamanho</th>
+            <th>Preço</th>
+            <th>Disponibilidade</th>
+        </tr>
+        <!--Esta outra são os itens da tabela-->
+        <tr>
+            <td>Camiseta</td>
+            <td>Preta</td>
+            <td>M</td>
+            <td>R$ 70,00</td>
+            <td>Em estoque</td> 
+        </tr>
+        <tr>
+            <td>Calça Jeans</td>
+            <td>Azul</td>
+            <td>P</td>
+            <td>R$ 160,00</td>
+            <td>Esgotado</td>
+        </tr>
+    </table>
+<!--table>tr*3>td*5 tem vez que não aparece para aparecer tem que da um ctrl e espaço para poder aparecer.
+só que a primeira que aparece tem que mudar na mão mesmo porque ela não muda vou fazer um exemplo
+com outra quantida para que eu não esqueça como se faz uma tabela.
+Exemplo -->
+
+
+<h2>Aluno: Vilmar Freire</h2>
+
+<table>
+    <tr>
+        <th>1ª Bimestre</th>
+        <th>2ª Bimestre</th>
+        <th>3ª Bimestre</th>
+        <th>4ª Bimestre</th>
+        <th>Recuperação</th>
+    </tr>
+    <tr>
+        <td> média 30</td>
+        <td> média 50</td>
+        <td> média 88</td>
+        <td> média 95</td>
+        <td>Aprovado</td>
+    </tr>
+    <tr>
+        <td>Precisa recuperar.</td>
+        <td>Precisa recuperar.</td>
+        <td>Recuperou o 1ª Bimestre.</td>
+        <td>Recuperou o 2ª Bimestre.</td>
+        <td>Melhorou muito, ótimo</td>
+    </tr>
+</table>
+
+<!-- <tfoot>: Elemento para o rodapé da tabela.
+O <tfoot> é um elemento HTML que define um conjunto de linhas as quais farão parte 
+do rodapé de uma tabela HTML-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Items</th>
+            <th scope="col"> Expenditure</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Donuts</th>
+            <td>3,000</td>
+        </tr>
+        <tr>
+            <th scope="row">Stationery</th>
+            <td>18,000</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th scope="row">Totals</th>
+            <td>21,000</td>
+        </tr>
+    </tfoot>
+</table>
+ 
+</body>
+</html>
